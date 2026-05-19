@@ -2,7 +2,9 @@
 
 Codex-native arXiv paper interpretation workflow for generating accessible Chinese deep-reading reports directly from arXiv source files.
 
-This skill reads arXiv LaTeX source, builds an evidence map, writes a structured Chinese report, and compiles it with XeLaTeX. It is designed to run inside Codex without invoking the original PaperGranny Python CLI, web server, LangGraph agent, or remote workflow.
+This repository is the pure Codex Skill implementation of [tangshunpu/paper_granny](https://github.com/tangshunpu/paper_granny). It keeps the Paper Granny paper-reading workflow, but does not require running the PaperGranny server, FastAPI web app, Python CLI, LangGraph agent, or any remote workflow.
+
+The skill reads arXiv LaTeX source, builds an evidence map, writes a structured Chinese report, and compiles it with XeLaTeX directly inside Codex.
 
 ## What It Does
 
