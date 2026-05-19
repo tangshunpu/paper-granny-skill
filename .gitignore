@@ -1,0 +1,20 @@
+# Generated Paper Granny outputs
+papers/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
