@@ -15,7 +15,15 @@ This skill reads arXiv LaTeX source, builds an evidence map, writes a structured
 
 ## Install
 
-Clone this repository into your Codex skills directory:
+Recommended: ask Codex to install this skill from GitHub.
+
+```text
+Install the Codex skill from https://github.com/tangshunpu/paper-granny-skill
+```
+
+Codex should clone the repository into your local skills directory and make it available as `$paper-granny`.
+
+Manual fallback: clone this repository into your Codex skills directory.
 
 ```bash
 mkdir -p "$CODEX_HOME/skills"
